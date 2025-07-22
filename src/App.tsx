@@ -13,11 +13,11 @@ function App() {
         <h1 className="text-3xl font-bold">Calculadora de Propinas y Consumo</h1>
       </header>
 
-      <main className="max-w-7xl mx-auto py-20 grid md:grid-cols-2 gap-4">
-        <div className="p-8">
-          <h2 className="text-2xl font-bold">Menú</h2>
+      <main className="max-w-7xl mx-auto py-20 grid md:grid-cols-2">
+        <div className="p-5">
+          <h2 className="text-4xl font-black">Menú</h2>
 
-          <div className='space-y-3 mt-5'>
+          <div className='space-y-3 mt-10'>
             {menuItems.map((item) => (
               <MenuItem 
                 key={item.id}
