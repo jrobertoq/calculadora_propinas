@@ -50,7 +50,7 @@ function App() {
               />
             </>
             ) : (
-                  <p className="text-center text-gray-500">La order está vacía</p>
+                  <p className="text-center text-gray-500">La order se encuentra vacía</p>
             )
           }
         </div>
